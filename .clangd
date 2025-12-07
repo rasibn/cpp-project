@@ -1,0 +1,11 @@
+CompileFlags:
+  Add:
+    - -std=c++17
+    - -Wall
+    - -Wextra
+    - -isystem/nix/store/68ndh04pl2hhhizsarvzwa9cnlp7zj3d-gcc-14.3.0/include/c++/14.3.0
+    - -isystem/nix/store/68ndh04pl2hhhizsarvzwa9cnlp7zj3d-gcc-14.3.0/include/c++/14.3.0/x86_64-unknown-linux-gnu
+  Compiler: clang++
+
+Diagnostics:
+  UnusedIncludes: Strict

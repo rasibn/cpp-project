@@ -1,11 +1,8 @@
-#include <iostream>
+#define PRINT
 
-int getInteger();
+void doSomething();
 
 int main() {
-  int x{getInteger()};
-  int y{getInteger()};
-
-  std::cout << x << " + " << y << " is " << x + y << '\n';
+  doSomething();
   return 0;
 }
